@@ -83,13 +83,14 @@ const markup = images
           />
         </a>
       </li>
-    `
+       `
   )
   .join("");
 
 gallery.insertAdjacentHTML("beforeend", markup);
 
 new SimpleLightbox('.gallery a', {
+  captions: true,
   captionsData: 'alt',
   captionDelay: 250,
 });
