@@ -1,1 +1,1 @@
-{"version":3,"file":"2-form.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"2-form.js","sources":["../src/js/2-form.js"],"sourcesContent":["const form = document.querySelector(\".feedback-form\");\nconst localStorageKey = \"feedback-form-state\";\n\nconst formData = {\n  email: \"\",\n  message: \"\"\n};\n\n\n\nform.addEventListener(\"input\", (event) => {\n    localStorage\n}) "],"names":["form","event"],"mappings":"uFAAA,MAAMA,EAAO,SAAS,cAAc,gBAAgB,EAUpDA,EAAK,iBAAiB,QAAUC,GAAU,CAE1C,CAAC"}
